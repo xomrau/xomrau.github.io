@@ -11,7 +11,7 @@ const Footer = () => {
             <p>You can check my socials, too.</p>
             <ul className="social">
                 <li className="social-item"><a href="#"><LinkedInIcon fontSize="inherit" /></a></li>
-                <li className="social-item"><a href="#"><GitHubIcon fontSize="inherit" /></a></li>
+                <li className="social-item"><a href="https://github.com/xomrau"><GitHubIcon fontSize="inherit" /></a></li>
             </ul>
         </div>
         <p className="copyright">Copyright &#169; 2020 Danny L.</p>
