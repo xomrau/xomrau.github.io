@@ -16,7 +16,7 @@ const Work = (props) => {
             <ul>
                 {works.map(work => (
                     <li className="work-item">
-                        <div className="work-img"><a href={work.url} target="_blank" rel="noopener noreferrer"><img src={work.img} alt="." /></a></div>
+                        <div className="work-img"><a href={work.url} target="_blank" rel="noopener noreferrer"><img className="proj-img" src={work.img} alt="." /></a></div>
                         <p className="work-title">{work.title} - </p>
                         <p className="work-description">{work.description}</p>
                     </li>
