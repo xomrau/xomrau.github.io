@@ -5,7 +5,7 @@ import works from './constants/works';
 const Intro = () => {
     //TODO
     return (<section className="intro pb-50">
-        <p>I put some of my projects here<br />Hope you enjoy your stay <br />Check out my <span className="link"><a href="https://github.com/xomrau">Github</a></span> for what I'm working on!</p>
+        <p>I put some of my projects here<br />Hope you enjoy your stay <br />Check out my <span className="link"><a href="https://github.com/xomrau" target="_blank" rel="noopener noreferrer">Github</a></span> for what I'm working on!</p>
     </section>);
 };
 
